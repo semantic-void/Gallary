@@ -6,7 +6,7 @@ function App() {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [term, setTerm] = useState('');
-
+  
   useEffect(() => {
     fetch(
       `https://pixabay.com/api/?key=${
